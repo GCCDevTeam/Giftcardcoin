@@ -1,0 +1,9 @@
+Building Giftcardcoin
+
+See doc/readme-qt.rst for instructions on building Giftcardcoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Giftcardcoin.
+
+See doc/build-*.txt for instructions on building Giftcardcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Giftcardcoin.
