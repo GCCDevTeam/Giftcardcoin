@@ -99,13 +99,6 @@
        </property>
       </widget>
      </item>
-     <item>
-      <widget class="QPushButton" name="cloaksendButton">
-       <property name="text">
-        <string>Cloak This</string>
-       </property>
-      </widget>
-     </item>
     </layout>
    </item>
    <item row="1" column="0">
