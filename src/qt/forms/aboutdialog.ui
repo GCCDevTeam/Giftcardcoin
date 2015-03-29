@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>About Giftcardcoin</string>
+   <string>About GiftNet</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_2">
    <item>
@@ -50,7 +50,7 @@
           <cursorShape>IBeamCursor</cursorShape>
          </property>
          <property name="text">
-          <string>&lt;b&gt;Giftcardcoin&lt;/b&gt; version</string>
+          <string>&lt;b&gt;GiftNet&lt;/b&gt; version</string>
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -95,7 +95,7 @@
 Copyright © 2009-2012 Bitcoin Developers
 Copyright © 2012 PPCoin Developers
 Copyright © 2014 CloakCoin Developers
-Copyright © 2014 Giftcardcoin Developers
+Copyright © 2014 GiftNet Developers
 </string>
        </property>
        <property name="textInteractionFlags">

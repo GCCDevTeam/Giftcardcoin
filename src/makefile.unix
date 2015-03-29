@@ -149,10 +149,10 @@ OBJS= \
     obj/scrypt-x86_64.o
 
 
-all: Giftcardcoind
+all: GiftNetd
 
-test check: test_Giftcardcoin FORCE
-	./test_Giftcardcoin
+test check: test_GiftNet FORCE
+	./test_GiftNet
 
 # auto-generated dependencies:
 -include obj/*.P
@@ -184,7 +184,7 @@ obj/%.o: %.c
 	rm -f $(@:%.o=%.d)
 
 
-Giftcardcoind: $(OBJS:obj/%=obj/%)
+GiftNetd: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -196,11 +196,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_Giftcardcoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_GiftNet: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ -Wl,-B$(LMODE) -lboost_unit_test_framework $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f Giftcardcoind test_Giftcardcoin
+	-rm -f GiftNetd test_GiftNet
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

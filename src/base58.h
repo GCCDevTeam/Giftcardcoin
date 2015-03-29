@@ -276,7 +276,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 32,  // Giftcardcoin: addresses usually begin with 'E' or 'D'
+        PUBKEY_ADDRESS = 32,  // GiftNet: addresses usually begin with 'E' or 'D'
         SCRIPT_ADDRESS = 85, 
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,

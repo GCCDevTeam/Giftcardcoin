@@ -1,10 +1,10 @@
 
-Copyright (c) 2014 Giftcardcoin Developers
+Copyright (c) 2014 GiftNet Developers
 
 
-Giftcardcoin 0.4.2 BETA
+GiftNet 0.4.2 BETA
 
-Copyright (c) 2014 Giftcardcoin Developers
+Copyright (c) 2014 GiftNet Developers
 Copyright (c) 2013-2014 CloakCoin Developers
 Copyright (c) 2013 NovaCoin Developers
 Copyright (c) 2011-2012 Bitcoin Developers
@@ -17,7 +17,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-Giftcardcoin is a free open source project derived from NovaCoin, with
+GiftNet is a free open source project derived from NovaCoin, with
 the goal of providing a long-term energy-efficient scrypt-based crypto-currency.
 Built on the foundation of Bitcoin and NovaCoin, innovations such as proof-of-stake
 help further advance the field of crypto-currency.
@@ -25,27 +25,27 @@ help further advance the field of crypto-currency.
 Setup
 -----
 Unpack the files into a directory and run:
- bin/32/Giftcardcoind (headless, 32-bit)
- bin/64/Giftcardcoind (headless, 64-bit)
+ bin/32/GiftNetd (headless, 32-bit)
+ bin/64/GiftNetd (headless, 64-bit)
 
 The software automatically finds other nodes to connect to.  You can
 enable Universal Plug and Play (UPnP) with your router/firewall
 or forward port 12788 (TCP) to your computer so you can receive
-incoming connections.  Giftcardcoin works without incoming connections,
-but allowing incoming connections helps the Giftcardcoin network.
+incoming connections.  GiftNet works without incoming connections,
+but allowing incoming connections helps the GiftNet network.
 
 
 Upgrade
 -------
 All you existing coins/transactions should be intact with the upgrade.
 To upgrade first backup wallet
-Giftcardcoind backupwallet <destination_backup_file>
-Then shutdown Giftcardcoind by
+GiftNetd backupwallet <destination_backup_file>
+Then shutdown GiftNetd by
 cloakcoind stop
-Start up the new Giftcardcoind.
+Start up the new GiftNetd.
 
 
-See the documentation/wiki at the Giftcardcoin site:
+See the documentation/wiki at the GiftNet site:
   http://cloakcoin.cc/
 for help and more information.
 

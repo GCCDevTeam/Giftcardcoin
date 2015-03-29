@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Giftcardcoins");
-    case mBTC: return QString("Milli-Giftcardcoins (1 / 1,000)");
-    case uBTC: return QString("Micro-Giftcardcoins (1 / 1,000,000)");
+    case BTC: return QString("GiftNets");
+    case mBTC: return QString("Milli-GiftNets (1 / 1,000)");
+    case uBTC: return QString("Micro-GiftNets (1 / 1,000,000)");
     default: return QString("???");
     }
 }
